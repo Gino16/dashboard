@@ -342,7 +342,13 @@ padding: 20px;
 }
 
 
-.details .recentCustomers table tr:hover {
+.details .recentCustomers table tr td h4 span{
+  font-size: 14px;
+  color: #999;
+}
+
+.details .recentCustomers table tr:hover,
+.details .recentCustomers table tr:hover td h4 span {
   background: #03a9f4;
   color: #fff;
 }
@@ -357,3 +363,6 @@ padding: 20px;
   font-weight: 500;
   line-height: 1.2em;
 }
+
+
+/* RESPONSIVE */
